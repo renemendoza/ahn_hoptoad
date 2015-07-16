@@ -2,7 +2,7 @@
 # Requires Adhearsion 1.1.0 or later.
 
 require 'toadhopper'
-hostname = `hostname -f`
+hostname = `hostname -f`.chomp
 framework_env = 'production'
 options = { :notifier_name => "adhearsion",
             :environment   => {
