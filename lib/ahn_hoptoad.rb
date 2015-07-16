@@ -8,7 +8,7 @@ options = { :notifier_name => "adhearsion",
             :environment   => {
                 "hostname" => hostname
             },
-            :component     => hostname
+            :component     => hostname,
             :framework_env => framework_env,
             :url           => nil
           }
